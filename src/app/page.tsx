@@ -4,6 +4,9 @@ import { Logo } from "@/components/logo";
 import Link from "next/link";
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
+import { HeroHighlighttxt } from "@/components/ui/herotxt";
+import { HoverBorderGradientbtn } from "@/components/ui/HoverBorderGradientbtn";
+
 
 export default function Home() {
   const { userId } = auth();
@@ -24,10 +27,12 @@ export default function Home() {
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center ">
-              <div className="space-y-2 ">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-7xl ">
-                  Ultimate AI Content Generator
-                </h2>
+              <div className="space-y-4 ">
+                  <HeroHighlighttxt/>
+                {/* <h2 className="text-3xl font-bold tracking-tighter sm:text-7xl ">
+                    HELLO
+                  
+                </h2> */}
                 <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto">
                   Our platform offers a suite of powerful tools to help you
                   generate social media contents with the power of AI.
@@ -35,9 +40,10 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col mt-24 items-center justify-center text-center">
-              <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">
+              {/* <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">
                 Key Features
-              </div>
+              </div> */}
+              <HoverBorderGradientbtn/>
             </div>
 
             <div className="mx-auto mt-10 grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
