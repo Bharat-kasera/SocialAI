@@ -3,8 +3,9 @@ import {
   FaInstagram,
   FaTiktok,
   FaLinkedin,
-  FaTwitter,
+  
 } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const contentTemplates = [
   {
@@ -121,7 +122,7 @@ export const contentTemplates = [
     name: "Tweet",
     desc: "An AI tool that generate Linkedin Post idea based on your post niche and outline information",
     category: "Tweet",
-    icon: FaTwitter,
+    icon: FaXTwitter,
     aiPrompt:
       "Give me 280 characters of tweet example on given niche & outline topic",
     slug: "generate-tweet-post",

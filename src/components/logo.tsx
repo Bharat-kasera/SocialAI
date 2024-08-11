@@ -14,7 +14,7 @@ export const Logo = () => {
   return (
     <Link href="/" className="flex flex-col items-center">
       <Image src="/logo.svg" width={64} height={64} alt="logo" />
-      <h2 className={cn(museo.className, "text-xl")}>Magic Social</h2>
+      <h2 className={cn(museo.className, "text-xl")}>SocialAI</h2>
     </Link>
   );
 };

@@ -2,19 +2,19 @@
 
 import { Logo } from "@/components/logo";
 import { cn } from "@/lib/utils";
-import { CreditCard, History, WandSparkles } from "lucide-react";
+import { CreditCard, SquareStack, DraftingCompass } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const menuList = [
   {
-    name: "Magic Tools",
-    icon: WandSparkles,
+    name: "Tools",
+    icon: DraftingCompass,
     path: "/dashboard",
   },
   {
-    name: "Output History",
-    icon: History,
+    name: "History",
+    icon: SquareStack,
     path: "/dashboard/history",
   },
   {
@@ -29,7 +29,7 @@ export const Sidebar = () => {
 
   console.log("path", path);
   return (
-    <div className="p-5 bg-white h-[800px] flex flex-col">
+    <div className="p-5 bg-white h-[70vh] flex flex-col">
       <Logo />
       <div className="mt-10 h-max flex flex-col justify-between">
         {menuList.map((menu) => (

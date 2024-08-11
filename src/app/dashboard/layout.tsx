@@ -1,12 +1,14 @@
 import React from "react";
 import { Sidebar } from "./_components/sidebar";
 import { AIUsage } from "./_components/ai-usage";
+import NextTopLoader from 'nextjs-toploader';
 
 const DashboardLayout = ({
   children,
 }: Readonly<{ children: React.ReactNode }>) => {
   return (
     <div className="bg-gray-50 h-screen">
+      <NextTopLoader showSpinner={false} color="#59a2ff"  />
       <div className="md:w-64 hidden md:block fixed">
         <Sidebar />
         <AIUsage />
