@@ -1,5 +1,6 @@
-<video src="https://github.com/Bharat-kasera/SocialAI/blob/main/public/Bharats%20video-inline-subtitles.mp4" controls="controls" style="max-width: 730px;">
-</video>
+
+https://github.com/user-attachments/assets/f1007779-4992-42de-b581-ffa08314dfb0
+
 ## Getting Started
 
 First, run the development server:
