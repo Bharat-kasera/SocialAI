@@ -1,7 +1,7 @@
 https://github.com/user-attachments/assets/f1007779-4992-42de-b581-ffa08314dfb0
 <div align="center">
 
-  <h3 align="center">Social AI</h3>
+  <h2 align="center">Social AI</h2>
 
 </div>
 
