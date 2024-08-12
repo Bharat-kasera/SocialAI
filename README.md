@@ -1,5 +1,5 @@
-[Watch the video](https://github.com/Bharat-kasera/SocialAI/blob/main/public/Bharats%20video-inline-subtitles.mp4)
-
+<video src="https://github.com/Bharat-kasera/SocialAI/blob/main/public/Bharats%20video-inline-subtitles.mp4" controls="controls" style="max-width: 730px;">
+</video>
 ## Getting Started
 
 First, run the development server:
